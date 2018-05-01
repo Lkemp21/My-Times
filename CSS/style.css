@@ -1,0 +1,112 @@
+header {
+  width: 100%;
+  height: 100px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+span {
+  color: MediumAquamarine;
+  padding-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-flex;
+  padding-right: 20px;
+}
+
+nav ul li {
+  width: 80px;
+  text-decoration: underline;
+}
+
+/* -- Begin Body -- */
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column.large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.column.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.hero {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  border: 1px solid black;
+  background-image: url("../resources/img-story-main.png");
+  height: 400px;
+  width: auto;
+}
+
+.grid {
+  display: flex;
+}
+
+.grid-col {
+  padding: 10px;
+}
+
+.article {
+  padding: 10px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+}
+
+.hero.img {
+  width: auto;
+  height: 300px;
+}
+
+.img p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.cat {
+  background-image: url("../resources/img-cat.png");
+}
+
+.outside {
+  background-image: url("../resources/img-outside.png");
+}
+
+.camera {
+  background-image: url("../resources/img-camera.png");
+}
